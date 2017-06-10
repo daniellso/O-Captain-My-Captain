@@ -99,3 +99,11 @@ ENV/
 
 # mypy
 .mypy_cache/
+
+# vagrant
+vagrant/*
+!vagrant/Vagrantfile
+!vagrant/initial.sh
+
+# django deve setting file
+local_settings.py
