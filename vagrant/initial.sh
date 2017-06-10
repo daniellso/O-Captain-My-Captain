@@ -83,7 +83,7 @@ function set_python_venv {
 }
 
 function install_python_third_party {
-    ~/python-venv/django/bin/pip install django mysqlclient
+    ~/python-venv/django/bin/pip install django mysqlclient django-widget-tweaks
 }
 
 # set password
